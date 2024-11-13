@@ -1,0 +1,214 @@
+body{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f0f0;
+    color: #333333;
+    text-align: center;
+    display: contents;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.nav{
+    
+    min-width: 30%;
+    max-width: 100%;
+    background:#fdfdfd;/*cambiarlo luego*/
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding:1% ;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px ;
+    color: #f0f0f0;
+    margin:0;
+    font-family: inherit;
+    display: flex;   
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    
+}
+ul{
+    padding: 0;
+    
+}
+.nav-ul{
+    
+    flex-direction: row;
+    display: inline-block; 
+    
+}
+.link{
+    
+    text-decoration: none;
+    color: #fdfdfd;
+}
+.link:hover{
+    color: #aa00fd;
+    background-color: #f0f0f0;
+}
+.nav-item,.nav-item-import{
+    
+    list-style: none;
+    background: #aa00fd;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 10px 20px ;
+    color: #fdfdfd;
+    
+    text-decoration: none;
+}
+.nav-item-import{
+    margin-top: 1%;
+    padding: 10px 50px;
+}
+.nav-item:hover,.nav-item-import:hover{
+    background: #fdfdfd;
+    color: #aa00fd;
+    font-weight: 900;
+    outline: 3px solid #222;
+    .link{
+        color: #6b00a1;
+    }
+}
+h2{
+    font-size: 40px;
+    text-shadow: 0 0 10px #222;
+    color: #222;
+    text-align: center;
+    
+    
+}
+.card{
+    scrollbar-width: 300px;
+    max-height: 200px;
+    color: #000;
+    font-weight: 900;
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-flow: nowrap;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    gap: 1%;
+}
+.html{/*caja ro*/
+    width: 30%;
+    height: inherit;
+    background-color:#dc4900 ;
+    border-radius: inherit;
+}
+.css{/*caja azul*/
+    width: 30%;
+    height: inherit;
+    background-color: #2470ea;
+    border-radius: inherit;
+}
+.javascript{/*caja verde*/
+    width: 30%;
+    height: inherit;
+    background-color: #d3d319;
+    border-radius: inherit;
+}
+.php{/*caja morado*/
+    width: 30%;
+    height: inherit;
+    background-color:#6a6c8c ;
+    border-radius: inherit;
+    
+    
+}
+.python{
+    width: 30%;
+    height: inherit;
+    background:linear-gradient(#ff0,#00f) ;
+    border-radius: inherit;
+
+}
+.SQL{
+    width: 30%;
+    height: inherit;
+    background-color:#0ddbc3 ;
+    border-radius: inherit;
+}
+.cm{
+    width: 30%;
+    height: inherit;
+    background:#324db8 ;
+    border-radius: inherit;
+}
+.cs{
+    width: 30%;
+    height: inherit;
+    background:#6b00a1 ;
+    border-radius: inherit;
+}
+.java{
+    width: 30%;
+    height: inherit;
+    background :linear-gradient(#ff482c,#48a) ;
+    border-radius: inherit;
+}
+.html:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(../fotos/photo_html.jpg) ;
+}
+.css:hover{ 
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fotos/photo_css.jpg);
+}
+.javascript:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fotos/photo_javascript.jpg);
+}
+.php:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fotos/photo_php.png);
+}
+.python:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fotos/photo_python_2.png);
+}
+.SQL:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(../fotos/photo_MySQL.png) ;
+}
+.cm:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fotos/photo_c++.png);
+}
+.cs:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fotos/photo_cs.png);
+}
+.java:hover{
+    background-color: #fdfdfd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../fotos/photo_java.jpg);
+}
